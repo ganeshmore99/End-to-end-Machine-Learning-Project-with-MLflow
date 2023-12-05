@@ -30,7 +30,6 @@ except Exception as e:
         raise e
 
 
-
 STAGE_NAME = "Data Transformation stage"
 try:
    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 

@@ -48,7 +48,6 @@ class ConfigurationManager:
             unzip_data_dir = config.unzip_data_dir,
             all_schema=schema,
         )
-
         return data_validation_config
     
 

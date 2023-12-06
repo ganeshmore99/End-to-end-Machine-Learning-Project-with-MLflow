@@ -6,7 +6,6 @@ import joblib
 from mlProject.entity.config_entity import ModelTrainerConfig
 
 
-
 class ModelTrainer:
     def __init__(self, config: ModelTrainerConfig):
         self.config = config

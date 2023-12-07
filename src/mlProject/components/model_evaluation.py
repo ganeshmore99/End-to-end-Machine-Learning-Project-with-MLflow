@@ -23,7 +23,6 @@ class ModelEvaluation:
         return rmse, mae, r2
     
 
-
     def log_into_mlflow(self):
 
         test_data = pd.read_csv(self.config.test_data_path)

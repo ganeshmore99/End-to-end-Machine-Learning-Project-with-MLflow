@@ -1,5 +1,70 @@
 # End-to-end-Machine-Learning-Project-with-MLflow
 
+This repository contains an end-to-end machine learning project with MLflow for experiment tracking, along with other MLOps tools for a complete CI/CD pipeline deployment on AWS.
+
+## Table of Contents
+#### Introduction
+#### Repository Setup
+#### Project Template Creation
+#### Project Setup and Requirements Installation
+#### Logging, Utils, and Exceptions Modules
+#### Project Workflows
+#### Modular Code Implementation
+#### Training Pipeline
+#### MLOps Tools Implementation
+#### Prediction Pipeline and User App Creation
+#### Docker
+#### GitHub Actions
+#### Final CI/CD Deployment on AWS Cloud
+
+## Introduction
+This project demonstrates an end-to-end machine learning pipeline from data preprocessing to deployment. It incorporates various MLOps tools and practices to ensure robust, scalable, and maintainable machine learning workflows.
+
+## Repository Setup
+Clone this repository to your local machine using the following command:
+
+git clone https://github.com/ganeshmore99/End-to-End-ML-Project-with-MLflow.git
+
+
+## Project Template Creation
+A project template is set up to ensure a structured and organized codebase. The template includes directories for data, scripts, notebooks, models, and logs.
+
+## Project Setup and Requirements Installation
+Install the required packages using pip:
+
+pip install -r requirements.txt
+Ensure all dependencies are met for smooth execution of the project.
+
+## Logging, Utils, and Exceptions Modules
+Modules for logging, utility functions, and custom exceptions are created to handle various aspects of the project:
+
+Logging: For tracking the execution flow and debugging.
+Utils: Contains helper functions used throughout the project.
+Exceptions: Custom exceptions for better error handling.
+Project Workflows
+Define the workflows for the project, including data ingestion, preprocessing, model training, evaluation, and deployment. Each workflow is modular and reusable.
+
+##  Modular Code Implementation
+Implement all components of the project in a modular fashion. This includes data preprocessing, feature engineering, model training, and evaluation.
+
+## Training Pipeline
+Set up the training pipeline, which includes data loading, preprocessing, model training, and evaluation. The pipeline ensures that all steps are executed sequentially and reproducibly.
+
+## MLOps Tools Implementation
+Incorporate MLOps tools such as MLflow for experiment tracking and model management. This ensures that all experiments are logged, and models can be easily tracked and retrieved.
+
+## Prediction Pipeline and User App Creation
+Develop a prediction pipeline to generate predictions from the trained model. Additionally, create a user application (e.g., a web app) to allow users to interact with the model and get predictions.
+
+## Docker
+Create Docker containers for the project to ensure consistency across different environments. This includes Dockerfiles for the training and prediction pipelines.
+
+## GitHub Actions
+Set up GitHub Actions for CI/CD to automate testing, building, and deployment processes. This ensures that any changes to the codebase are automatically tested and deployed.
+
+## Final CI/CD Deployment on AWS Cloud
+Deploy the final project on AWS Cloud using CI/CD pipelines. This includes setting up the necessary infrastructure on AWS and using GitHub Actions for automated deployment.
+
 
 ## Workflows
 
@@ -165,4 +230,12 @@ MLflow
  - Trace all of your expriements
  - Logging & tagging your model
 
+## Contributing
+Contributions are welcome! Please read the contributing guidelines before submitting a pull request.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgments
+Thanks to the developers of the tools and libraries used in this project.
 

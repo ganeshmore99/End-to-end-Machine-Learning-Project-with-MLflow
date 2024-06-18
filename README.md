@@ -1,4 +1,7 @@
-# End-to-end-Machine-Learning-Project-with-MLflow
+# End-to-end-Machine-Learning-Project-with-MLflow [Wine Quality Prediction]
+
+![wine](https://github.com/ganeshmore99/End-to-end-Machine-Learning-Project-with-MLflow/assets/85934803/ab8283c2-ebba-45b1-88f8-46ad0535e2d8)
+
 
 This repository contains an end-to-end machine learning project with MLflow for experiment tracking, along with other MLOps tools for a complete CI/CD pipeline deployment on AWS.
 
